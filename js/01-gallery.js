@@ -5,8 +5,7 @@ import { galleryItems } from "./gallery-items.js";
 const gallery = document.querySelector(".gallery");
 
 //створення і рендер розмітки елементів галереї
-//створюємо порожній масив, який заповнюємо розміткою для кожного елемента, шляхом перебирання масиву об'єктів з файлу './gallery-items.js'
-
+//створюємо порожній масив, який заповнюємо розміткою для кожного елемента, шляхом перебирання масиву об'єктів з файлу - galleryItems
 const items = [];
 
 galleryItems.forEach(({ original, preview, description }) => {
